@@ -9,21 +9,65 @@
 
     <title>About Me</title>
 
-    <?php
-  	   $path = $_SERVER['DOCUMENT_ROOT'];
-  	   $path .= "/share/htag.php";
-  	   include_once($path);
-  	?>
+    <meta name="description" content="Keypad website">
+<meta name="author" content="thnikk">
+<link rel="icon" href="http://thnikk.moe/favicon.png?v=3">
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/test.css" rel="stylesheet">
+
 
   </head>
 
   <body>
 
-    <?php
-  	   $path = $_SERVER['DOCUMENT_ROOT'];
-  	   $path .= "/share/nav.php";
-  	   include_once($path);
-  	?>
+    <!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://thnikk.moe">
+        <div class="btn btn-nav">
+          <span>
+            <img src="http://thnikk.moe/img/logo.svg" class="img-nav">
+          </span>
+          thnikk
+        </div>
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://docs.thnikk.moe/en/latest/models.html"><i class="material-icons">gamepad</i> Models</a></li>
+        <li><a href="http://docs.thnikk.moe/en/latest/index.html"><i class="material-icons">book</i> Docs</a></li>
+        <li><a href="https://www.etsy.com/shop/thnikk"><i class="material-icons">shopping_cart</i> Shop</a></li>
+        <!--
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">developer_board</i> Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        -->
+        <li><a href="http://blog.thnikk.moe"><i class="material-icons">chat_bubble</i> Blog</a></li>
+        <li><a href="http://thnikk.moe/about"><i class="material-icons">person</i> About Me</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -174,10 +218,37 @@
     </div>
 
 
-  <?php
-     $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/share/foot.php";
-     include_once($path);
-  ?>
+  <!-- Footer -->
+<footer class="footer">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h4>Copyright thnikk© 2014-2017</h4>
+    </div>
+    <div class="col-md-6 text-center">
+      <h4>
+        <ul class="list-inline">
+          <li>
+            <a href="https://twitter.com/thnikk">twitter</a>
+          </li>
+          <!--<li>·</li>
+          <li>
+            <a href="https://github.com/thnikk">GitHub</a>
+          </li>-->
+          <li>·</li>
+          <li>
+            <a href="https://osu.ppy.sh/u/519270">osu!</a>
+          </li>
+        </ul>
+      </h4>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="http://thnikk.moe/js/bootstrap.min.js"></script>
+
 
 </html>
