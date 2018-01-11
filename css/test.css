@@ -1,0 +1,269 @@
+/* Gotham Rounded Font */
+@font-face {
+	font-family: ground;
+	src: url(http://thnikk.moe/fonts/Gotham-Rounded-Book.ttf);
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(fonts/MaterialIcons-Regular.woff2) format('woff2'),
+       url(fonts/MaterialIcons-Regular.woff) format('woff'),
+       url(fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+h1 {
+	font-family:ground;
+}
+h2 {
+	font-family:ground;
+}
+h3 {
+	font-family:ground;
+}
+/* END OF FONTS */
+
+body {
+	color: #2b303b;
+}
+
+.btn-success, .btn-success:visited {
+	background-color: #a3be8c;
+	border-color: #65737e;
+	color: #4f5b66;
+}
+.btn-success:hover {
+	background-color: #a3be8c;
+	border-color: #65737e;
+	color: #2b303b;
+}
+
+.img-fluid{
+	width:100%;
+	height:auto;
+}
+
+/* Nav color */
+.navbar-inverse {
+	font-family:ground;
+  background-color: #343d46;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #2b303b;
+}
+
+/* Nav title */
+.navbar-inverse .navbar-brand {
+  color: #eff1f5;
+	width: 200px;
+}
+.navbar-inverse .navbar-brand img{
+  height:38px;
+	width:38px;
+	margin-top:-3px;
+	margin-right:-3px;
+}
+.navbar-inverse .navbar-brand .btn {
+	margin-top:-24px;
+	font-size: 2em;
+}
+.navbar-inverse .navbar-brand .btn:hover {
+	color:inherit;
+}
+
+/* Nav link */
+.navbar-inverse .navbar-nav>li>a {
+  color: #c0c5ce;
+	font-size: 12pt;
+}
+/* Active page */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #2b303b;
+  color: #eff1f5;
+}
+/* Selected */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: #2b303b;
+  color: #eff1f5;
+}
+.navbar-nav {
+	float: right;
+}
+.navbar-nav .material-icons {
+	margin-top: -10px;
+	margin-bottom: -2px;
+	vertical-align: text-bottom;
+}
+
+.jumbotron-home {
+  background-color: #dfe1e8;
+	padding-top:70px;
+	padding-bottom:240px;
+	margin-bottom:0px;
+}
+.jumbotron {
+  background-color: #dfe1e8;
+	padding-top:70px;
+	padding-bottom:50px;
+	margin-bottom:0px;
+}
+
+.well {
+  background-color: #eff1f5;
+  border-color: #dfe1e8;
+}
+
+.jumbotron-home h1, .jumbotron-home h2, .jumbotron-home h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.jumbotron-home h2 {
+	color: #65737e;
+	margin-bottom: 30px;
+}
+.jumbotron-home .list-inline {
+	margin-top: 30px;
+}
+
+.jumbotron-showcase {
+	background-color: #eff1f5;
+	padding-bottom:50px;
+}
+.showcase-img {
+	margin-top: -275px;
+	max-width: 90%;
+}
+.jumbotron-showcase p {
+	margin: 15px;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.jumbotron-showcase .img-circle, .jumbotron-showcase .img-circle:visited {
+	background-color: #dfe1e8;
+	border: 1px solid #c0c5ce;
+	height:140px;
+	width:140px;
+	margin-bottom:20px;
+}
+.jumbotron-showcase .img-circle:hover {
+	background-color: #c0c5ce;
+	border: 1px solid #a7adba;
+}
+.jumbotron-showcase .img-circle:hover .material-icons {
+	color: #4f5b66;
+}
+.jumbotron-showcase .img-circle .material-icons, .img-circle .material-icons:visited {
+	margin-top:35px;
+	font-size: 5em;
+	color: #a7adba;
+}
+.about-pic, .about-pic:visited,  .about-pic:hover{
+	background-color: #c0c5ce;
+	border: 1px solid #a3be8c;
+	height:140px;
+	width:140px;
+	margin-bottom:20px;
+	margin-top:30px;
+	border-radius: 100%;
+}
+
+
+.jumbotron-links {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-color: #eff1f5;
+}
+.jumbotron-links .img-circle, .jumbotron-showcase .img-circle:visited {
+	background-color: #dfe1e8;
+	border: 1px solid #c0c5ce;
+	height:70px;
+	width:70px;
+	margin-bottom:20px;
+}
+.jumbotron-links  .img-circle:hover {
+	background-color: #c0c5ce;
+	border: 1px solid #a7adba;
+}
+.jumbotron-links .img-circle:hover .material-icons {
+	color: #4f5b66;
+}
+.jumbotron-links .img-circle .material-icons, .img-circle .material-icons:visited {
+	margin-top:13px;
+	font-size: 3em;
+	color: #a7adba;
+}
+.jumbotron-links h2 {
+	margin-top: 0px;
+}
+
+
+.jumbotron-2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.jumbotron-2 dt {
+	font-size: 16pt;
+	font-family: ground;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.jumbotron-2 dd {
+	font-size: 12pt;
+	margin-left: 10px;
+}
+
+.jumbotron-3 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #eff1f5;
+}
+
+.footnote {
+	text-align:right;
+	color: #a7adba;
+	padding:5px;
+}
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  background-color: #343d46;
+	border-top: 1px;
+	border-color: #2b303b;
+	color: #a7adba;
+	font-family: ground;
+}
+.footer .row {
+	margin:10px;
+}
+.footer .align-left {
+	text-align: left;
+}
+.footer .align-right {
+	text-align: right;
+}
+
+.footer a, .footer a:hover, .footer a:visited {
+	color:#dfe1e8;
+}
+
+/* carousel */
+.carousel-inner {
+	overflow: visible;
+}
