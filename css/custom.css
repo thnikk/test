@@ -37,10 +37,13 @@ a, a:hover, a:visited{
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .carousel-item img {
     width: auto !important;
-    height: auto;
+    height: 500px !important;
+  }
+  .carousel-item {
+    padding-bottom:100px !important;
   }
 }
 
@@ -148,7 +151,8 @@ header {
 }
 
 .carousel-item {
-  height: 600px;
+  height: auto;
+  padding: 20px;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -176,8 +180,8 @@ header {
   margin-right: auto;
   padding-top: 0px;
   vertical-align: middle;
-  width:400px;
-  height:auto;
+  width:auto;
+  height:300px;
 }
 
 .carousel-caption {
