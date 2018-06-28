@@ -37,6 +37,13 @@ a, a:hover, a:visited{
   }
 }
 
+@media (min-width: 700px) {
+  .carousel-item img {
+    width: auto !important;
+    height: auto;
+  }
+}
+
 .text-rounded {
   font-family: ground;
 }
@@ -169,6 +176,8 @@ header {
   margin-right: auto;
   padding-top: 0px;
   vertical-align: middle;
+  width:400px;
+  height:auto;
 }
 
 .carousel-caption {
