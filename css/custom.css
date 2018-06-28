@@ -1,0 +1,227 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: ground;
+  src: url(../fonts/Gotham-Rounded-Light.ttf); /* update check */
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(fonts/MaterialIcons-Regular.woff2) format('woff2'),
+       url(fonts/MaterialIcons-Regular.woff) format('woff'),
+       url(fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+body {
+  padding-top: 50px !important;
+  color:#2b303b;
+  background-color: rgb(52, 61, 70);
+}
+
+a, a:hover, a:visited{
+  color:#337ab7;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 50px;
+  }
+}
+
+.text-rounded {
+  font-family: ground;
+}
+
+h1, h2, h3, h4 {
+  font-family: ground;
+  margin-bottom: 0rem;
+}
+
+.m-0 {
+  font-family: ground;
+  font-weight: 100;
+}
+.faded {
+  opacity:0.5;
+}
+
+.btn-success, .btn-success:visited {
+  background-color: #a3be8c;
+  border-color: #65737e;
+  border: 1px;
+  color: #4f5b66;
+}
+.btn-success:hover {
+	background-color: #a3be8c;
+	border-color: #65737e;
+	color: #2b303b;
+}
+
+.navbar {
+  font-size: 20px;
+  padding:0rem 0rem !important;
+}
+a .card {
+  color: #2b303b;
+}
+a .card:hover {
+  background-color: #dfe1e8;
+}
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+footer a, footer a:hover, footer a:focus, footer a:visited {
+  color: #eff1f5;
+}
+
+.portfolio-item a, a:hover, a:focus {
+  color: #2b303b;
+}
+
+/* Nav link */
+.navbar .navbar-nav>li>a {
+  color: #c0c5ce;
+	font-size: 16pt;
+}
+
+/* Active page */
+.navbar .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #2b303b;
+  color: #eff1f5;
+}
+/* Selected */
+.navbar.navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: #2b303b;
+  color: #eff1f5;
+}
+.navbar-nav {
+	float: right;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.navbar img {
+  width:40px;
+  margin-right: 10px;
+  margin-top:-5px;
+  margin-bottom:3px;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.bg-dark {
+  background-color: rgb(52, 61, 70) !important;
+}
+.bg-light { background-color:#dfe1e8; }
+
+.header-top {
+
+}
+
+header {
+  background: linear-gradient(0deg, #eff1f5 55%, #dfe1e8 1% );
+}
+
+.header-bottom {
+  padding-top: 50px;
+}
+
+.carousel-item {
+  height: 600px;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-control-prev-icon {
+  background-image: none;
+}
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-indicators .active { /* Active indicator */
+  background-color: #2b303b !important;
+}
+.carousel-indicators li { /* Inactive indicator */
+  background-color: #a7adba !important;
+}
+
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  vertical-align: middle;
+}
+
+.carousel-caption {
+  color: #2b303b;
+}
+
+.round-img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 100%;
+  border: 0px solid;
+  background-color:#c0c5ce;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  vertical-align: text-bottom;
+	margin-bottom: 2px;
+}
+
+.card .material-icons {
+  color:#96b5b4;
+}
+
+nav .material-icons {
+    margin-left: 20px;
+    font-size:20px;
+}
+
+.portfolio-item .material-icons {
+  font-size:30px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.top-padding {
+  padding-top: 50px;
+}
+
+.list-inline li {
+  display:inline;
+}
+
+.footnote {
+	text-align:right;
+	color: #a7adba;
+	padding:5px;
+}
+
+.img-circle .material-icons, .img-circle .material-icons:visited {
+	margin-top:35px;
+	font-size: 5em;
+	color: #a7adba;
+}
