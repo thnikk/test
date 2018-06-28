@@ -125,6 +125,7 @@ footer a, footer a:hover, footer a:focus, footer a:visited {
 .navbar img {
   width:40px;
   margin-right: 10px;
+  margin-left: 10px; /* fix for mobile */
   margin-top:-5px;
   margin-bottom:3px;
 }
