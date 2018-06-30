@@ -189,6 +189,15 @@ header {
   color: #2b303b;
 }
 
+.carousel-super {
+  position:absolute;
+  top: 20;
+  right: 20%;
+  display:block;
+}
+
+.btn-danger { background-color:#bf616a; border: none; }
+
 .round-img {
   display: block;
   margin-left:auto;
