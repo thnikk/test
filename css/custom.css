@@ -115,7 +115,7 @@ footer a, footer a:hover, footer a:focus, footer a:visited {
   color: #eff1f5;
 }
 .navbar-nav {
-	float: right;
+	float: left; 
 }
 
 .navbar-brand {
