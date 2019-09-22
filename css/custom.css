@@ -76,6 +76,10 @@ h1, h2, h3, h4 {
 	color: #2b303b;
 }
 
+.btn-warning {
+    background-color: #ebcb8b;
+}
+
 .navbar {
   font-size: 20px;
   padding:0rem 0rem !important;
