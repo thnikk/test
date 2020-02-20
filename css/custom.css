@@ -108,6 +108,15 @@ footer a, footer a:hover, footer a:focus, footer a:visited {
 	font-size: 16pt;
 }
 
+.nav-link {
+    padding-top: 0px;
+}
+
+a.dropdown-item {
+    color: #2b303b;
+    font-size: 16pt;
+}
+
 /* Active page */
 .navbar .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: #2b303b;
@@ -119,7 +128,7 @@ footer a, footer a:hover, footer a:focus, footer a:visited {
   color: #eff1f5;
 }
 .navbar-nav {
-	float: left; 
+	float: left;
 }
 
 .navbar-brand {
