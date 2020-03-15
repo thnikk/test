@@ -43,8 +43,12 @@ a, a:hover, a:visited{
     height: 500px !important;
   }
   .carousel-item {
-    padding-bottom:100px !important;
+    padding-bottom:50px !important;
   }
+}
+
+.crow {
+    height: 200px;
 }
 
 .text-rounded {
@@ -157,7 +161,7 @@ a.dropdown-item {
 }
 
 header {
-  background: linear-gradient(0deg, #eff1f5 55%, #dfe1e8 1% );
+  background: #eff1f5;
 }
 
 .header-bottom {
@@ -200,6 +204,7 @@ header {
 
 .carousel-caption {
   color: #2b303b;
+  top: 0px;
 }
 
 .carousel-super {
