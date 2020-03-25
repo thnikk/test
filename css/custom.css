@@ -68,6 +68,14 @@ h1, h2, h3, h4 {
   opacity:0.5;
 }
 
+.btn a{
+    color:#4f5b66;
+}
+
+.btn-corner {
+    margin-bottom: -50px;
+}
+
 .btn-success, .btn-success:visited {
   background-color: #a3be8c;
   border-color: #65737e;
@@ -165,7 +173,8 @@ header {
 }
 
 .header-bottom {
-  padding-top: 50px;
+    padding-top: 50px;
+    background: #dfe1e8;
 }
 
 .carousel-item {
@@ -232,7 +241,7 @@ header {
 }
 
 .card .material-icons {
-  color:#96b5b4;
+  color: #2b303b;
 }
 
 nav .material-icons {
@@ -241,7 +250,8 @@ nav .material-icons {
 }
 
 .portfolio-item .material-icons {
-  font-size:30px;
+  font-size:24px;
+  vertical-align: center;
 }
 
 .portfolio-item {
